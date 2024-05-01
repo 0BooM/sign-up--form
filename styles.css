@@ -34,6 +34,8 @@ img {
   border: 3px solid purple;
   width: 100%;
   height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(245, 245, 245);
 }
 
 img {
@@ -80,17 +82,47 @@ img {
   text-decoration: underline;
 }
 
-.right-side {
-  font-family: Arial, Helvetica, sans-serif;
+.right-side > .text-content {
   padding: 13.5rem 0rem 0 5rem;
-  background-color: rgb(245, 245, 245);
 }
 
 .right-side p,
 i,
 h2 {
-  font-size: 2rem;
-  width: 55ch;
+  font-size: 2.2rem;
+  width: 70%;
   font-weight: bold;
   margin-bottom: 3rem;
+  padding-right: 1rem;
+}
+
+form {
+  display: flex;
+  gap: 6rem;
+}
+.form-container {
+  background-color: white;
+  width: 100%;
+  padding: 1.8rem 0 1.8rem 5rem;
+  box-shadow: 0px 0px 20px 1px rgba(200, 200, 200, 1);
+}
+
+.form-container form input {
+  font-size: 1.6rem;
+  padding: 0.4rem 0rem;
+}
+
+label {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: rgb(83, 83, 83);
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.6rem;
+  width: max(200px, 18vw);
+}
+
+input {
+  border: 1px solid lightgray;
 }

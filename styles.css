@@ -24,14 +24,12 @@ body {
 
 .left-side,
 img {
-  border: 3px solid red;
   width: max(450px, 35vw);
   height: 100%;
   position: relative;
 }
 
 .right-side {
-  border: 3px solid purple;
   width: 100%;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
@@ -104,7 +102,7 @@ form {
   background-color: white;
   width: 100%;
   padding: 1.8rem 0 1.8rem 5rem;
-  box-shadow: 0px 0px 20px 1px rgba(200, 200, 200, 1);
+  box-shadow: 0px 0px 5px 0px rgba(200, 200, 200, 1);
 }
 
 .form-container form input {
@@ -124,5 +122,32 @@ label {
 }
 
 input {
-  border: 1px solid lightgray;
+  border: 1px solid #e5e7eb;
+}
+
+.button-container {
+  margin: 3rem 5rem;
+}
+
+button {
+  background-color: #596d48;
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 1.8rem;
+  padding: 1.4rem 5rem;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px 0px rgba(200, 200, 200, 1);
+}
+
+.button-container p,
+.button-container span {
+  font-weight: normal;
+  font-size: 1.6rem;
+  margin-top: 3.5rem;
+}
+
+span.log-in {
+  color: #596d48;
+  font-weight: bold;
 }

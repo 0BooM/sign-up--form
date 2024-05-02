@@ -42,32 +42,39 @@
             <div class="form-left">
               <label for="first-name"
                 >FIRST NAME
-                <input type="text" id="first-name" name="first-name" />
+                <input type="text" id="first-name" name="first-name" required />
               </label>
               <label for="email"
                 >EMAIL
-                <input type="email" id="email" name="email" />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                  required
+                />
               </label>
               <label for="password"
                 >PASSWORD
-                <input type="password" id="password" name="password" />
+                <input type="password" id="password" name="password" required />
               </label>
             </div>
             <div class="form-right">
               <label for="last-name"
                 >LAST NAME
-                <input type="text" id="last-name" name="last-name" />
+                <input type="text" id="last-name" name="last-name" required />
               </label>
               <label for="phone-number"
                 >PHONE NUMBER
                 <input type="tel" id="phone-number" name="phone-number" />
               </label>
-              <label for="phone-number-confirmation"
-                >CONFIRM PHONE NUMBER
+              <label for="password-confirmation"
+                >CONFIRM PASSWORD
                 <input
-                  type="tel"
-                  id="phone-number-confirmation"
-                  name="phone-number-confirmation"
+                  type="password"
+                  id="password-confirmation"
+                  name="password-confirmation"
+                  required
                 />
               </label>
             </div>

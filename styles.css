@@ -124,14 +124,17 @@ label {
 input {
   border: 1px solid #e5e7eb;
   border-radius: 4px;
+  padding: 0 1rem;
 }
-
-form label input:focus {
+input:focus {
   outline: none;
   border: 1px solid blue;
   box-shadow: 1px 1px 5px 0px rgba(200, 200, 200, 1);
 }
 
+input[type="password"]:invalid {
+  border: 1px solid red;
+}
 .button-container {
   margin: 3rem 5rem;
 }

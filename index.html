@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>Sign-up Form</title>
-    <script src="scripts.js"></script>
-    link
+    <script src="scripts.js" defer></script>
   </head>
   <body>
     <div class="container">
@@ -67,6 +66,9 @@
               <label for="password"
                 >PASSWORD
                 <input type="password" id="password" name="password" required />
+                <span class="password-validation invalid"
+                  >* Passwords do not match</span
+                >
               </label>
             </div>
             <div class="form-right">

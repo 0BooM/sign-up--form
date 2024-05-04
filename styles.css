@@ -171,3 +171,10 @@ span.log-in {
   color: #596d48;
   font-weight: bold;
 }
+
+.invalid {
+  color: red;
+}
+.valid {
+  color: green;
+}

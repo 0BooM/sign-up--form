@@ -98,6 +98,13 @@ form {
   display: flex;
   gap: 6rem;
 }
+
+form span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin-top: 4px;
+}
 .form-container {
   background-color: white;
   width: 100%;
@@ -107,7 +114,7 @@ form {
 
 .form-container form input {
   font-size: 1.6rem;
-  padding: 0.4rem 0rem;
+  padding: 0.4rem 1rem;
 }
 
 label {
@@ -124,7 +131,6 @@ label {
 input {
   border: 1px solid #e5e7eb;
   border-radius: 4px;
-  padding: 0 1rem;
 }
 input:focus {
   outline: none;
